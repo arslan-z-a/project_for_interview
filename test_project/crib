@@ -1,0 +1,26 @@
+Создание проекта
+django-admin startproject test_project
+
+Сервер разработки
+python manage.py runserver
+
+Создание приложения
+python manage.py startapp test_app
+
+Настройка базы данных
+django.db.backends.sqlite3
+django.db.backends.postgresql
+django.db.backends.mysql
+django.db.backends.oracle
+
+Cоздать таблицы в базе данных
+python manage.py migrate
+
+Запустив makemigrations, вы сообщаете Django, что внесли некоторые изменения в свои модели
+python manage.py makemigrations
+
+Создание пользователя с правами администратора
+python manage.py createsuperuser
+
+Добавление своего приложения в админку
+admin.site.register(model)
