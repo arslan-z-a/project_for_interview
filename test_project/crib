@@ -24,3 +24,6 @@ python manage.py createsuperuser
 
 Добавление своего приложения в админку
 admin.site.register(model)
+
+Клонирование проекта с git
+git clone путь_к_репозитории
